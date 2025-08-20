@@ -166,7 +166,7 @@ export default function TableMap({
       },
       type: 'tableNode',
     }));
-  }, [tables]);
+  }, [tables, activeOrders]);
 
   return (
     <div className="w-[100%] h-[80vh] border rounded-lg">
